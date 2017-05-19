@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fashion</title>
+	<meta name="description" content="Fahion page">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700" rel="stylesheet">
+	<!-- build:css -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- endbuild -->
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="col-md-12 col-sm-12 additional-menu">
+		<div class="container">
+			<div class="row">
+				<div class="top-nav pull-right">
+					<ul>
+						<li>
+							<a href="">Register</a>
+						</li>
+						<li>
+							<a  href="#" data-toggle="modal" data-target="#myModal">Sign in</a>
+						</li>
+						<li>
+							<a class="empty" href="">empty</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pull-left">
+					<span>Currency: GBP</span>
+				</div>
+			</div>
+		</div>
+	</div>
+  	<div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="index.html"><span>avenue</span> fashion</a>
+	    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	     	<ul class="nav navbar-nav">
+	    		<li class="dropdown">
+	    			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">mens <span class="caret"></span></a>
+
+		          	<ul class="dropdown-menu">
+						<ul class="casual-list">
+			         		<span class="title-list">casuals</span>
+				            	<li>
+				            		<a href="#">Jacket</a>
+				            	</li>
+				            	<li>
+				            		<a href="product-view.html">Hoodies &amp; Sweatshirts</a>
+				            	</li>
+				            	<li>
+				            		<a href="#">Polo Shirts</a>
+				            	</li>
+				            	<li>
+				            		<a href="#">Sportswear</a>
+				            	</li>
+				            	<li>
+				            		<a href="#">Trousers &amp; Chinos</a>
+				            	</li>
+				            	<li>
+				            		<a href="#">T-Shirts</a>
+				            	</li>
+			            </ul>
+
+			            <ul class="formal-list">
+			            	<span class="title-list">formal</span>
+				            <li>
+				            	<a href="#">Jacket</a>
+				            </li>
+				            <li>
+				            	<a href="#">Shirts</a>
+				            </li>
+				            <li>
+				            	<a href="#">Suits</a>
+				            </li>
+				            <li>
+				            	<a href="#">Trousers</a>
+				            </li>
+			            </ul>
+		            <p class="sale-info">autumn sale! Up to 50&#x0025; off</p>
+		          </ul>
+		        </li>
+
+	         	<li class="dropdown">
+	          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">womens <span class="caret"></span></a>
+
+	          		<ul class="dropdown-menu">
+						<ul class="casual-list">
+			            	<span class="title-list">casuals</span>
+			            	<li>
+			            		<a href="#">Jacket</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Blouses</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Skirts</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Dresses</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">T-Shirts</a>
+			            	</li>
+	            		</ul>
+
+						<ul class="formal-list">
+			            	<span class="title-list">formal</span>
+			            	<li>
+			            		<a href="#">Jacket</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Blouses</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Skirts</a>
+			            	</li>
+			            	<li>
+			            		<a href="#">Dresses</a>
+			            	</li>
+		            	</ul>
+	            		<p class="sale-info">autumn sale! Up to 50&#x0025; off</p>
+	          		</ul>
+	        	</li>
+
+	         	<li>
+	         		<a href="brand.html">brand</a>
+	         	</li>
+
+	         	<li>
+	         		<a href="stores.html">local stores</a>
+	         	</li>
+
+	         	<li class="dropdown">
+	          		<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">lookbook <span class="caret"></span></a>
+
+	          		<ul class="dropdown-menu">
+	          			<ul class="casual-list">
+		            		<span class="title-list">our lookbooks</span>
+		            		<li>
+		            			<a href="lookbook.html">Lates Post (mixed)</a>
+		            		</li>
+		            		<li>
+		            			<a href="#">Men's Lookbook</a>
+		            		</li>
+		            		<li>
+		            			<a href="#">Women's Lookbook</a>
+		            		</li>
+	            		</ul>
+	    
+	    				<ul class="formal-list">
+		            	<span class="title-list">your lookbook</span>
+		            		<li>
+		            			<a href="#">View and Edit</a>
+		            		</li>
+		            		<li>
+		            			<a href="#">Share</a>
+		            		</li>
+		            		<li>
+		            			<a href="#">Delete</a>
+		            		</li>
+	            		</ul>
+	            		<p class="sale-info">autumn sale! Up to 50&#x0025; off</p>
+	          		</ul>
+	        	</li>
+	      	</ul>
+
+	      <form class="navbar-form navbar-right">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	      </form>
+
+	    </div><!-- /.navbar-collapse -->
+  	</div><!-- /.container-fluid -->
+</nav>
+
+<!-- modal -->
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Sign In</h4>
+			</div>
+			<div class="modal-body">
+				<form action="#">
+					<input type="password" name="psw" placeholder="Password" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<input class="btn btn-primary btn-modal" type="submit" value="Sign In">
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="#">Forgot password?</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<header class="page-header">
+	<div class="container">
+		  <h1>ave</h1>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">shop men's collection</a></p>
+	  </div>
+</header>
+
+<div class="main">
+	<div class="products-area products-home">
+		<div class="container">
+			<div class="row">
+
+				<div class="products-filter">
+					<ul class="nav nav-pills">
+			  			<li role="presentation" data-filter="*"><a href="#">popular</a></li>
+			  			<li role="presentation" data-filter=".arrives"><a href="#">new arrives</a></li>
+			  			<li role="presentation" data-filter=".sellers"><a href="#">best sellers</a></li>
+			  			<li role="presentation" data-filter=".offer"><a href="#">special offer</a></li>
+			  			<li role="presentation" data-filter=".coming"><a href="#">coming soon</a></li>
+					</ul>
+				</div>
+
+				<div class="grid">
+					<div class="col-md-3 col-sm-3 col-xs-12 grid-item arrives">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span>89.99</span>
+								<img src="img/item-1.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xs-12 grid-item sellers offer">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span>47.50</span>
+								<img src="img/item-2.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12 grid-item offer">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span>69.95</span>
+								<img src="img/item-4.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12 grid-item coming sellers">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span><s>107</s></span>
+								<span class="price cross-price"><span class="pound"><sup>&pound;</sup></span>89.99</span>
+								<img src="img/item-3.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xs-12 grid-item arrives">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span>29.95</span>
+								<img src="img/item-5.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xs-12 grid-item sellers arrives">
+						<div class="product-item">
+							<div class="product-img">
+								<span class="price"><span class="pound"><sup>&pound;</sup></span>34.79</span>
+								<img src="img/item-6.jpg">
+								<span class="info-icon"><i class="fa fa-info fa-2x" aria-hidden="true"></i></span>
+							</div>
+							<div class="product-info">
+								<h3>women's burnt orange casual tee <span><sup>&pound;</sup></span>29.95</h3>
+								<p class="short-dsc">Classic casual t-shirt for womaen on the move. 100&#x0025; cotton</p>
+								<a class="product-icon icon" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+								<a class="product-icon icon" href=""><i class="fa fa-compress" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<section class="lookbook">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="row">
+						<div class="col-md-5 col-sm-12 col-xs-12">
+							<img src="img/look-1.jpg">
+						</div>
+						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+							<h2><span>men's</span> lookbook</h2>
+							<p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.</p>
+							<a class="btn btn-primary btn-small" href="">view now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="row">
+						<div class="col-md-5 col-sm-12 col-xs-12">
+							<img src="img/lokk-2.jpg">
+						</div>
+						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+							<h2><span>women's</span> lookbook</h2>
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus</p>
+							<a class="btn btn-primary btn-small" href="">view now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="row">
+						<div class="col-md-5 col-sm-12 col-xs-12">
+							<img src="img/look-3.jpg">
+						</div>
+						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+							<h2><span>your</span> lookbook</h2>
+							<p>See an item you like and click the <i class="fa fa-heart-o" aria-hidden="true"></i> button to add it to your lookbook where you can create your own perfect look. It’s like your own boutique!</p>
+							<a class="btn btn-primary btn-small" href="">view now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<footer class="page-footer">
+	<div class="container">
+		<div class="row links">
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<h3>information</h3>
+				<ul>
+					<li>
+						<a href="">The brand</a>
+					</li>
+					<li>
+						<a href="">Local stores</a>
+					</li>
+					<li>
+						<a href="">Customer service</a>
+					</li>
+					<li>
+						<a href="">Privacy &amp; cookies</a>
+					</li>
+					<li>
+						<a href="">Site map</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<h3>why buy from us</h3>
+				<ul>
+					<li>
+						<a href="">Shopping &amp; returns</a>
+					</li>
+					<li>
+						<a href="">Secure shopping</a>
+					</li>
+					<li>
+						<a href="">Testimonials</a>
+					</li>
+					<li>
+						<a href="">Award winning</a>
+					</li>
+					<li>
+						<a href="">Ethical trading</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<h3>your account</h3>
+				<ul>
+					<li>
+						<a href="">Sign in</a>
+					</li>
+					<li>
+						<a href="">Register</a>
+					</li>
+					<li>
+						<a href="">View cart</a>
+					</li>
+					<li>
+						<a href="">View your lookbook</a>
+					</li>
+					<li>
+						<a href="">Track an order</a>
+					</li>
+					<li>
+						<a href="">Update infromation</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<h3>lookbook</h3>
+				<ul>
+					<li>
+						<a href="">Latest posts</a>
+					</li>
+					<li>
+						<a href="">Men's lookbook</a>
+					</li>
+					<li>
+						<a href="">Women's lookbook</a>
+					</li>
+					<li>
+						<a href="">Lookbooks RSS feed</a>
+					</li>
+					<li>
+						<a href="">View your lookbook</a>
+					</li>
+					<li>
+						<a href="">Delete your lookbook</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<h3>contact details</h3>
+				<address>
+				<span class="main-address">Head Office: Avenue Fashion, 180-182 Regent Street, London.</span>
+				<a href="tel:+0123456789">Telephone: 0123-456-789</a>
+				<a href="mailto:support@yourwebsite.com"></i> support&#x0040;yourwebsite.com</a>
+				</address>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-sm-12 left-column">
+			<span class="first-line">award winner</span>
+			<span>fasion awards 2016</span>
+		</div>
+
+		<div class="col-md-6 col-sm-12 right-column">
+			<a class="social-icon" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+			<a class="social-icon" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+			<a class="social-icon" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+			<a class="social-icon" href="https://pl.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i></a>
+		</div>
+
+	</div>
+
+	<div class="page-footer-copyright">
+
+		<div class="container">
+			<div class="row">
+				<span class="col-md-4 col-sm-4 first-column">&copy; 2016 Avenue Fashion<sup>&trade;</sup></span>
+				<span class="col-md-4 col-sm-4 second-column">Design by <a href="" class="copyright-link">Robby Designs.com</a></span>
+				<span class="col-md-4 col-sm-4 third-column">Dev by <a href="" class="copyright-link">Loremimsum.com</a></span>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
+<!-- build:js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/isotope.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

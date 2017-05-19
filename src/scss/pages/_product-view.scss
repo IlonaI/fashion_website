@@ -1,0 +1,188 @@
+.product-view {
+
+	padding-top: em(60px);
+
+	h2 {
+		margin-bottom: 15px;
+		font-size: em(18px);
+		text-transform: uppercase;
+	}
+
+	.rating-elements {
+		font-size: em(14px);
+
+		a {
+			display: inline-block;
+			margin-left: 15px;
+		}
+	}
+
+	.rating {
+		position: relative;
+		top: -3px;
+		unicode-bidi: bidi-override;
+
+  		span {
+  			font-size: em(19px);
+  			color: $eggBlue;
+  		}
+
+		& > span:hover:before,
+		& > span:hover ~ span:before {
+			content: "\2605";
+   			position: absolute;
+		}
+	}
+
+	.price-wrapper {
+		margin-top: em(15px);
+		margin-bottom: em(8px);
+	}
+
+	.product-price {
+		margin-right: 20px;
+		font-size: em(30px);
+		color: $gray;
+	}
+
+	.product-details {
+		p {
+			margin-top: em(8px);
+			margin-bottom: em(8px);
+			text-transform: uppercase;
+			font-weight: 700;
+			color: $donJuan;
+		}
+
+		span {
+			text-transform: lowercase;
+			font-weight: normal;
+		}
+
+		.tags { color: $eggBlue; }
+	}
+
+	.product-dsc {
+		color: $gray;
+
+		ul {
+			margin: 15px 0 25px 15px;
+			font-size: em(15px);
+			font-family: $base-font-family;
+			font-weight: normal;
+			list-style-type: disc;
+		}
+	}
+
+	.select-wrapper {
+		margin-bottom: 35px;
+		font-size: em(14px);
+		color: $gray;
+		p {
+			font-size: em(15px);
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $donJuan;
+		}
+	}
+
+	select, 
+	input {
+		height: 35px;
+		margin-top: 5px;
+		padding-left: 10px;
+		border: 1px solid $silver;
+		
+	}
+
+	select {
+		width: 170px;	
+	}
+
+	input {
+		width: 70px;
+		&::-webkit-inner-spin-button,
+		&::-webkit-outer-spin-button {
+			opacity: 1;
+		}
+	}
+
+	.btn-wrapper {
+
+		.btn-primary { margin-right: em(25px); }
+		.btn-primary:hover {
+			color: $white;
+			background-color: $mineShaft;
+		}
+
+		.fa { margin-right: 10px; }
+
+	}
+
+	.tab-wrapper {
+		margin-top: em(40px);
+		padding-bottom: em(120px);
+	}
+
+	.nav-tabs { border-bottom: none; }
+
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	    color: $white;
+	    background-color: $mineShaft;
+	}
+	.nav-tabs > li > a {
+		text-transform: uppercase;
+		color: $mineShaft;
+	    border-radius: 0;
+	}
+
+	.nav-tabs > li > a:hover {
+    	border-color: transparent;
+	}
+
+	.tab-content {
+		h4 {
+			margin-top: 25px;
+			font-size: em(14px);
+			text-transform: uppercase;
+			color: $doveGray;
+		}
+
+		p {
+			margin-top: 25px;
+			color: $gray;
+		}
+	}
+
+	.video { margin-top: 25px; }
+
+	.size-panel {
+		p {
+			margin-top: 3px;
+			margin-bottom: 3px;
+		}
+	}
+}
+
+// media queries
+
+@media (max-width: 992px) {
+	
+	.product-view {
+
+		.select-wrapper p { margin-top: 5px; }
+
+		.btn-primary { margin-bottom: 15px; }
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.product-view {
+
+		h2 { padding-top: 15px; }
+
+		.padding { padding-top: 8px; }
+	}
+}

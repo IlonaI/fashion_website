@@ -1,0 +1,12 @@
+// Background
+
+@mixin bgImg($url, $position, $width) {
+	background: url($url), $position;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: $width;
+}
+
+// Transition
+
+@mixin basic-transition() { transition: all 0.3s ease-in-out; }

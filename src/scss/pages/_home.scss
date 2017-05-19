@@ -1,0 +1,144 @@
+.products-area {
+	
+	.products-filter {
+		margin-bottom: em(10px);
+	}
+
+	.product-item {
+		margin-top: em(15px);
+		margin-bottom: em(15px);
+		box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
+		position: relative;	
+	}
+
+	h3 {
+		color: $doveGray;
+	}	
+}
+
+
+.products-home {
+	margin-top: em(-64px);
+
+	h3 {
+		margin-top: 20px;
+		font-size: em(10px);
+		text-transform: uppercase;
+	}
+
+	.product-item {
+		&:hover .product-info {
+			height: auto;
+			transform: scale(1.1);
+			opacity: 1;
+		}
+		&:hover .product-img {
+			transform: scale(1.1);
+		}
+
+		&:hover .info-icon {
+			opacity: 1;
+		}
+	}
+
+	.product-img {
+		@include basic-transition();
+	}
+
+	.info-icon {
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		height: em(40px);
+		width: em(40px);
+		transform: translate(-50%,-50%);
+		text-align: center;
+		background-color: $white;
+		border-radius: 50%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		@include basic-transition();	
+	}
+
+	.cross-price {
+		margin-left: 50px;
+	}
+
+	.pound {
+		display: inline;
+		margin-bottom: -10px;
+		font-size: em(13px);
+	}
+
+	.product-info {
+		position: absolute;
+		left: 0;
+		z-index: 999;
+		width: 100%;
+		height: 0;
+		opacity: 0;
+		text-align: center;
+		padding-left: em(10px);
+		padding-right: em(10px);
+		background-color: $white;
+		box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
+		@include basic-transition();
+		span {
+			display: inline-block;
+		}
+	}
+
+	.short-dsc {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-size: em(12px);
+		color: $silver;	
+	}
+
+	.product-icon { margin-bottom: em(15px); }
+
+}
+
+
+
+.lookbook {
+	margin-top: em(60px);
+	padding-top: em(95px);
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-color: rgb(248,248,248);
+	.text-right {
+		text-align: right;
+	}
+
+	h2 { text-transform: uppercase; }
+
+	h2 > span {
+		display: inline-block;
+		font-weight: 900;
+		color: $donJuan;
+	}
+	
+	p {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: em(15px);
+		color: $doveGray;
+	}
+	
+}
+
+// media queries
+
+@media screen and (max-width: 992px) {
+
+	.lookbook {
+		
+		.text-right {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+}
+

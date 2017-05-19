@@ -1,0 +1,59 @@
+.stores {
+
+	p { margin-bottom: em(35px); }
+
+	.map {
+		margin-top: em(60px);
+		margin-bottom: em(120px);
+		background-color: $alabaster;
+	}
+
+	#map {
+		height: 500px;
+		filter: grayscale(100%);
+	}
+
+	&-icon { margin-right: em(15px); }
+
+	.address-details {
+		display: block;
+		margin-top: 15px;
+		font-size: em(14px);
+		color: $gray;
+	}
+
+	.social-icons { margin-bottom: 30px; }
+}
+
+@media (max-width: 1199px) {
+
+	.stores {
+
+		.padding-left {
+			padding-right: 80px;
+			padding-left: 80px;
+		}
+	}
+}
+
+@media (max-width: 679px) {
+
+	.stores {
+
+		.padding-left {
+			padding-right: 45px;
+			padding-left: 45px;
+		}
+	}
+}
+
+@media (max-width: 370px) {
+
+	.stores {
+
+		.padding-left {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+	}
+}

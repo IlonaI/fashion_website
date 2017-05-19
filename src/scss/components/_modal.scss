@@ -1,0 +1,39 @@
+.modal-content { border-radius: 0; }
+
+h4.modal-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $white;
+}
+
+.modal-header {
+	background-color: $eggBlue;
+	border-bottom: none;
+}
+
+.close {
+		color: $white;
+		opacity: 1;
+	}
+
+.modal-body {
+	input {
+		display: block;
+		width: 100%;
+		height: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		font-size: 12px;
+		border: 1px solid $silver;
+		&.btn-modal {
+			margin-top: 25px;
+		}
+	}
+}
+
+.modal-footer {
+	font-size: em(13px);
+	text-align: center;
+	border-top: none;
+}

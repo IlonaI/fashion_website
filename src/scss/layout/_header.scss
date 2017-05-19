@@ -1,0 +1,55 @@
+.page-header {
+	position: relative;
+	top: -91px;
+	z-index: 20;
+	padding-bottom: em(80px);
+	@include bgImg('../img/slider-bg.jpg', center, 100vw);
+	border-bottom: 0;
+
+	.btn-primary { float: right; }
+
+	h1 {
+	margin-top: 180px;
+	margin-bottom: 80px;
+	font-size: 20vw;
+	letter-spacing: 9vw;
+	text-transform: uppercase;
+	text-align: center;
+	color: $donJuan;
+	}
+}
+
+.btn-primary  {
+	text-transform: uppercase;
+	background-color: transparent;
+	color: $mineShaft;
+	border-color: $mineShaft;
+}
+
+.btn-lg {
+	font-size: em(16px);
+	border-radius: 0;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: $white;
+  background-color: $eggBlue;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  color: $white;
+  background-color: $eggBlue;
+  border-color: transparent;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: $white;
+  background-color: $eggBlue;
+  border-color: transparent;
+}
+
+

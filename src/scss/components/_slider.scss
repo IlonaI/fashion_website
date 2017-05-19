@@ -1,0 +1,38 @@
+.carousel-inner,
+.carousel-inner > .item { 
+	max-height: 450px;
+}
+
+.carousel-caption {
+	bottom: 16vmin;
+	text-transform: uppercase;
+	h1 {
+		padding-top: 30px;
+		margin-bottom: 30px;
+		font-size: em(48px);
+	}
+	span { font-weight: 900; }
+
+	p {
+		margin-top: 15px;
+		font-size: em(24px);
+	}
+}
+
+// media queries
+
+@media (max-width: 446px) {
+
+	.carousel-caption {
+
+		h1 {
+			margin-bottom: 0;
+			font-size: em(32px);
+		}
+
+		p {
+			font-size: em(16px);
+		}
+	}	
+}
+
