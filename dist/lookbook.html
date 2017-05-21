@@ -3,15 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Fashion</title>
-	<meta name="description" content="Fahion page">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="Fahion page" name="description">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	<!-- build:css -->
-	<link rel="stylesheet" href="css/font-awesome.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<!-- endbuild -->
+	<link href="css/style.css" rel="stylesheet">
+
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,19 +22,19 @@
 <body>
 
 <nav class="navbar navbar-default">
-	<div class="col-md-12 col-sm-12 additional-menu">
+	<div class="col-sm-12 col-md-12 additional-menu">
 		<div class="container">
 			<div class="row">
-				<div class="top-nav pull-right">
+				<div class="pull-right top-nav">
 					<ul>
 						<li>
 							<a href="">Register</a>
 						</li>
 						<li>
-							<a  href="#" data-toggle="modal" data-target="#myModal">Sign in</a>
+							<a href="#" data-toggle="modal" data-target="#myModal">Sign in</a>
 						</li>
 						<li>
-							<a class="empty" href="">empty</a>
+							<a href="" class="empty">empty</a>
 						</li>
 					</ul>
 				</div>
@@ -50,20 +47,20 @@
   	<div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      <button class="collapsed navbar-toggle" type="button" aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse">
 	        <span class="sr-only">Toggle navigation</span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html"><span>avenue</span> fashion</a>
+	      <a href="index.html" class="navbar-brand"><span>avenue</span> fashion</a>
 	    </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	     	<ul class="nav navbar-nav">
 	    		<li class="dropdown">
-	    			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">mens <span class="caret"></span></a>
+	    			<a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" role="button">mens <span class="caret"></span></a>
 
 		          	<ul class="dropdown-menu">
 						<ul class="casual-list">
@@ -108,7 +105,7 @@
 		        </li>
 
 	         	<li class="dropdown">
-	          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">womens <span class="caret"></span></a>
+	          		<a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" role="button">womens <span class="caret"></span></a>
 
 	          		<ul class="dropdown-menu">
 						<ul class="casual-list">
@@ -158,7 +155,7 @@
 	         	</li>
 
 	         	<li class="dropdown">
-	          		<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">lookbook <span class="caret"></span></a>
+	          		<a href="" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" role="button">lookbook <span class="caret"></span></a>
 
 	          		<ul class="dropdown-menu">
 	          			<ul class="casual-list">
@@ -193,7 +190,7 @@
 
 	      <form class="navbar-form navbar-right">
 	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
+	          <input type="text" placeholder="Search" class="form-control">
 	        </div>
 	      </form>
 
@@ -202,18 +199,18 @@
 </nav>
 
 <!-- modal -->
-<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog">
+<div class="bs-example-modal-sm fade modal" id="myModal" role="dialog" tabindex="-1">
 	<div class="modal-dialog modal-sm" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<button class="close" type="button" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
 				<h4 class="modal-title">Sign In</h4>
 			</div>
 			<div class="modal-body">
 				<form action="#">
-					<input type="password" name="psw" placeholder="Password" required>
-					<input type="email" name="email" placeholder="Email" required>
-					<input class="btn btn-primary btn-modal" type="submit" value="Sign In">
+					<input type="password" placeholder="Password" name="psw" required>
+					<input type="email" placeholder="Email" name="email" required>
+					<input type="submit" class="btn btn-modal btn-primary" value="Sign In">
 				</form>
 			</div>
 			<div class="modal-footer">
@@ -224,7 +221,7 @@
 </div>
 
 <header>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
 
 	<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
@@ -272,111 +269,111 @@
 				</div>
 
 				<div class="grid">
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item liked">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item liked">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>m1</span>
 							<img src="img/lookbook-1.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item best-sellers">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item best-sellers">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>w1</span>
 							<img src="img/lookbook-2.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6 col-sm-12 grid-item price-low">
+					<div class="col-md-6 col-sm-12 col-xs-12 grid-item price-low">
 						<div class="product-item">
 							<div class="personal-lookbook">
 								<h2><span>jane's</span> lookbook</h2>
 								<h3>get the look for under &pound;200!</h3>
 								<p>We invited actress Jane Marshall to join us for the day and choose her perfect outfit from our vast range of womens fashion.</p>
 								<p>This is of course not true as this is just a design for a website and this is simply filler text.</p>
-								<a class="btn btn-primary btn-small" href="">view now</a>
+								<a href="" class="btn btn-primary btn-small">view now</a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item price-high">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item price-high">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>mj1</span>
 							<img src="img/lookbook-4.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item liked">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item liked">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>m2</span>
 							<img src="img/lookbook-5.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item best-sellers">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item best-sellers">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>w2</span>
 							<img src="img/lookbook-6.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 					
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item price-low">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item price-low">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>w3</span>
 							<img src="img/lookbook-7.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-9 col-sm-12 grid-item price-high">
+					<div class="col-sm-12 col-md-9 col-xs-12 grid-item price-high">
 						<div class="product-item">
 							<div class="new-look">
-								<span class="pull-right"><span class="bigger-font">win</span><br/> a new look</span>
+								<span class="pull-right"><span class="bigger-font">win</span><br> a new look</span>
 								<h2><span>win</span> a new look!</h2>
 								<h3>add looks or items to your lookbook for a chance of winning</h3>
-								<p>See an item or a complete look you like, click the <i class="fa fa-heart-o" aria-hidden="true"></i> button to add it to your lookbook and you’ll be automatically entered to our monthly draw where one winner gets a &pound;300 gift voucher to spend on our website!</p>
+								<p>See an item or a complete look you like, click the <i aria-hidden="true" class="fa fa-heart-o"></i> button to add it to your lookbook and you’ll be automatically entered to our monthly draw where one winner gets a &pound;300 gift voucher to spend on our website!</p>
 								<p>Terms: No purchase necessary. Vouchers are non-transferable and no cash alternative is ofered. Competition is for members only.</p>
-								<a class="btn btn-primary btn-small" href="">shop now</a>
+								<a href="" class="btn btn-primary btn-small">shop now</a>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 grid-item liked">
+					<div class="col-sm-6 col-xs-12 col-md-3 grid-item liked">
 						<div class="product-item">
 							<div class="overlay"></div>
 							<span class="price"><span><sup>ref</sup></span>w4</span>
 							<img src="img/lookbook-9.jpg">
 							<div class="hover-icons">
-								<a class="info-icon product-icon" href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-								<a class="info-icon product-icon" href=""><i class="fa fa-info" aria-hidden="true"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-heart"></i></a>
+								<a href="" class="info-icon product-icon"><i aria-hidden="true" class="fa fa-info"></i></a>
 							</div>
 						</div>
 					</div>
@@ -391,39 +388,39 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="row">
-						<div class="col-md-5 col-sm-12">
+						<div class="col-sm-12 col-md-5 col-xs-12">
 							<img src="img/look-1.jpg">
 						</div>
-						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+						<div class="col-sm-12 col-md-7 col-xs-12 text-right">
 							<h2><span>men's</span> lookbook</h2>
 							<p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.</p>
-							<a class="btn btn-primary btn-small" href="">view now</a>
+							<a href="" class="btn btn-primary btn-small">view now</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="row">
-						<div class="col-md-5 col-sm-12">
+						<div class="col-sm-12 col-md-5 col-xs-12">
 							<img src="img/lokk-2.jpg">
 						</div>
-						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+						<div class="col-sm-12 col-md-7 col-xs-12 text-right">
 							<h2><span>women's</span> lookbook</h2>
 							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus</p>
-							<a class="btn btn-primary btn-small" href="">view now</a>
+							<a href="" class="btn btn-primary btn-small">view now</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="row">
-						<div class="col-md-5 col-sm-12">
+						<div class="col-sm-12 col-md-5 col-xs-12">
 							<img src="img/look-3.jpg">
 						</div>
-						<div class="col-md-7 col-sm-12 col-xs-12 text-right">
+						<div class="col-sm-12 col-md-7 col-xs-12 text-right">
 							<h2><span>your</span> lookbook</h2>
-							<p>See an item you like and click the <i class="fa fa-heart-o" aria-hidden="true"></i> button to add it to your lookbook where you can create your own perfect look. It’s like your own boutique!</p>
-							<a class="btn btn-primary btn-small" href="">view now</a>
+							<p>See an item you like and click the <i aria-hidden="true" class="fa fa-heart-o"></i> button to add it to your lookbook where you can create your own perfect look. It’s like your own boutique!</p>
+							<a href="" class="btn btn-primary btn-small">view now</a>
 						</div>
 					</div>
 				</div>
@@ -435,7 +432,7 @@
 <footer class="page-footer">
 	<div class="container">
 		<div class="row links">
-			<div class="col-md-2 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 col-md-2">
 				<h3>information</h3>
 				<ul>
 					<li>
@@ -456,7 +453,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-2 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 col-md-2">
 				<h3>why buy from us</h3>
 				<ul>
 					<li>
@@ -477,7 +474,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-2 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 col-md-2">
 				<h3>your account</h3>
 				<ul>
 					<li>
@@ -501,7 +498,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-2 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 col-md-2">
 				<h3>lookbook</h3>
 				<ul>
 					<li>
@@ -525,12 +522,12 @@
 				</ul>
 			</div>
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 col-md-4">
 				<h3>contact details</h3>
 				<address>
 				<span class="main-address">Head Office: Avenue Fashion, 180-182 Regent Street, London.</span>
 				<a href="tel:+0123456789">Telephone: 0123-456-789</a>
-				<a href="mailto:support@yourwebsite.com"></i> support&#x0040;yourwebsite.com</a>
+				<a href="mailto:support@yourwebsite.com"> support&#x0040;yourwebsite.com</a>
 				</address>
 			</div>
 		</div>
@@ -541,10 +538,10 @@
 		</div>
 
 		<div class="col-md-6 col-sm-12 right-column">
-			<a class="social-icon" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
-			<a class="social-icon" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-			<a class="social-icon" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-			<a class="social-icon" href="https://pl.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i></a>
+			<a href="https://www.facebook.com/" class="social-icon" target="_blank"><i aria-hidden="true" class="fa fa-3x fa-facebook"></i></a>
+			<a href="https://twitter.com/" class="social-icon" target="_blank"><i aria-hidden="true" class="fa fa-3x fa-twitter"></i></a>
+			<a href="https://www.instagram.com/" class="social-icon" target="_blank"><i aria-hidden="true" class="fa fa-3x fa-instagram"></i></a>
+			<a href="https://pl.pinterest.com/" class="social-icon" target="_blank"><i aria-hidden="true" class="fa fa-3x fa-pinterest-p"></i></a>
 		</div>
 
 	</div>
@@ -562,12 +559,8 @@
 	</div>
 
 </footer>
-<!-- build:js -->
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/isotope.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<!-- endbuild -->
+<script src="js/script.js"></script>
+
 
 </body>
 </html>
